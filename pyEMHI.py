@@ -43,3 +43,5 @@ def GetCurrentWeatherData():
 
         WeatherData["Stations"].append(Station)
     return WeatherDataw
+
+print(GetHistoricWeatherData(28, 5, 2018, 7))
